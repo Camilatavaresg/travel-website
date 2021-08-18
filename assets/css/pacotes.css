@@ -1,0 +1,98 @@
+main {
+     background: #e1e8f7;
+}
+
+.pacotes {
+     padding-bottom: 3rem;
+}
+
+.section__titulo {
+     padding: 3rem;
+     font-size: 1.5rem;
+     text-align: center;
+     font-weight: 500;
+}
+
+.pacotes__divisao {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.pacote__card {
+     width: 280px;
+     height: 400px;
+     border-top-left-radius: 15px;
+     position: relative;
+     background: white;
+     border-bottom-right-radius: 15px;
+}
+
+.card__imagem {
+     width: 280px;
+     height: 210px;
+     object-fit: cover;
+     border-top-left-radius: 15px;
+     margin: 0;
+}
+
+.card__tag-topo {
+     position: absolute;
+     top: 20px;
+     right: 0;
+     color: white;
+     background: rgb(236, 168, 41);
+     padding: 0.3rem 0.8rem;
+     border-radius: 6px 0 0 6px;
+}
+
+.card__tag-bottom {
+     position: absolute;
+     top: 170px;
+     color: white;
+     background: rgb(62, 106, 226);
+     padding: 0.3rem 0.8rem;
+     border-radius: 0 6px 6px 0;
+     font-size: 15px;
+}
+
+
+.card__conteudo {
+     padding: 1.5rem 0;
+     border-bottom-right-radius: 15px;
+}
+
+.card__conteudo h4 {
+     text-align: center;
+     font-weight: 500;
+     font-size: 19px;
+     padding-bottom: 1rem;
+}
+
+.card__incluso {
+     padding: 0 0 0.5rem 1rem;
+     color: rgb(124, 128, 133);
+}
+
+li svg {
+     margin-right: 1rem;
+     width: 18px;
+     height: 18px;
+}
+
+.card__incluso li {
+     font-size: 14.5px;
+     line-height: 1.8rem;
+}
+
+@media screen and (max-width:768px) {
+     .pacotes__divisao {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+     }
+
+     .pacote__card {
+          margin-bottom: 3rem;
+     }
+}
