@@ -85,6 +85,11 @@ li svg {
 }
 
 @media screen and (max-width:768px) {
+
+     main {
+          padding-bottom: 4rem;
+     }
+     
      .pacotes__divisao {
           display: flex;
           flex-direction: column;

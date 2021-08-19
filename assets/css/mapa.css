@@ -42,3 +42,20 @@
 .contato svg {
      margin-right: 8px;
 }
+
+@media screen and (max-width:768px) {
+     .contato {
+          position: static;
+          margin: 0 auto;
+          padding-bottom: 3rem;
+          width: 90%;
+          
+     }
+
+     .container__mapa {
+          width: 100%;
+          height: 500px;
+          margin: 0 auto;
+     }
+
+}
