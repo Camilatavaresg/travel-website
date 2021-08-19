@@ -39,3 +39,13 @@
           align-items: center;
      }
 }
+
+@media screen and (max-width:460px) {
+     
+     .servico {
+          padding: 12px;
+          border-radius: 8px;
+          box-shadow: rgb(145, 144, 144) 0.5px 0.5px 20px -12px;
+     }
+     
+}
