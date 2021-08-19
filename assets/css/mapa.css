@@ -43,6 +43,8 @@
      margin-right: 8px;
 }
 
+/*tablets*/
+
 @media screen and (max-width:768px) {
      .contato {
           position: static;

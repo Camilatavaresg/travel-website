@@ -21,7 +21,7 @@
 
 .servico {
      width: 350px;
-     margin-bottom: 2rem;
+     margin: 0 0.7rem 2rem;
 }
 
 .servico p {
@@ -30,6 +30,8 @@
      line-height: 1.1rem;
      margin-bottom: 1.7rem;
 }
+
+/*tablets*/
 
 @media screen and (max-width:768px) {
      
@@ -40,9 +42,12 @@
      }
 }
 
+/*phones*/
+
 @media screen and (max-width:460px) {
      
      .servico {
+          width: fit-content;
           padding: 12px;
           border-radius: 8px;
           box-shadow: rgb(145, 144, 144) 0.5px 0.5px 20px -12px;

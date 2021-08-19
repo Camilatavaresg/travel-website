@@ -84,6 +84,31 @@ li svg {
      line-height: 1.8rem;
 }
 
+/* big tablets */
+
+@media screen and (max-width:1000px) and (min-width:769px) {
+
+
+     .pacote__card {
+          width: 240px;
+          height: 400px;
+          border-top-left-radius: 15px;
+          position: relative;
+          background: white;
+          border-bottom-right-radius: 15px;
+     }
+     
+     .card__imagem {
+          width: inherit;
+          height: 210px;
+          object-fit: cover;
+          border-top-left-radius: 15px;
+          margin: 0;
+     }
+}
+
+/*tablets*/ 
+
 @media screen and (max-width:768px) {
 
      main {
