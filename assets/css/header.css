@@ -24,6 +24,11 @@
      padding: 0 1rem;
 }
 
+.header-lista__item:hover {
+     font-weight: bold;
+     text-decoration: underline;
+}
+
 .header__conteudo {
      display: flex;
      height: 520px;
