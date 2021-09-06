@@ -1,5 +1,5 @@
 .header__container {
-     height: 60vh;
+     height: fit-content;
      background: url('../img/header-image.jpeg') 50% 42% / cover;
 }
 
