@@ -61,6 +61,7 @@
      border: none;
      background: rgb(46, 93, 223);
      color: white;
+     transition: 0.75s;
 }
 
 .header__botao:hover {
