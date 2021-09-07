@@ -1,5 +1,5 @@
 .header__container {
-     height: fit-content;
+     height: 65vh;
      background: url('../img/header-image.jpeg') 50% 42% / cover;
 }
 
@@ -42,7 +42,7 @@
      font-size: 5rem;
      text-align: center;
      font-weight: 500;
-     padding-bottom: 2rem;
+     padding: 3rem 0;
 }
 
 .header__conteudos {
@@ -61,6 +61,12 @@
      border: none;
      background: rgb(46, 93, 223);
      color: white;
+}
+
+.header__botao:hover {
+     cursor: pointer;
+     width: 115px;
+     text-decoration: underline;
 }
 
 /*Tablets*/
